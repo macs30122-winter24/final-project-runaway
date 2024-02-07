@@ -23,8 +23,8 @@ year_class = "_37XwjAqVHtjzqzEtybpHrU" # Contains time, this is under class "vv9
 #------ Right Panel (Post contents) -----
 comment_class = '_36ZEkSvpdj_igmog0nluzh'
 
-
-url = "https://lihkg.com/search?q=特首&sort=score&type=thread"
+KeyWord = "投票"
+url = "https://lihkg.com/search?q="+KeyWord+"&sort=score&type=thread"
 browser = webdriver.Chrome(executable_path="/Users/jingzhixu/Parking Lot/MACSS/2024winter/30122/chromedriver")
 browser.maximize_window()
 browser.get(url)
@@ -32,7 +32,7 @@ browser.get(url)
 els = browser.find_elements(By.CLASS_NAME, "wQ4Ran7ySbKd8PdMeHZZR")
 browser.execute_script("arguments[0].scrollIntoView();", els[-1])
 
-cand_links = []
+links = []
 def infinite_scroll(driver):
     number_of_elements_found = 0
     while True:
@@ -41,7 +41,7 @@ def infinite_scroll(driver):
         if number_of_elements_found == len(els):
             # Reached the end of loadable elements
             for e in els:
-                cand_links.append([a.get_attribute("href") for a in e.find_elements_by_tag_name("a")])
+                links.append([a.get_attribute("href") for a in e.find_elements_by_tag_name("a")])
             break
 
         try:
@@ -56,16 +56,18 @@ def infinite_scroll(driver):
         
 infinite_scroll(browser)   
 
-ceLinks = []
-for p in cand_links:
-    if p[0] not in ceLinks:
-        ceLinks.append(p[0])
+Links = []
+for p in links:
+    if p[0] not in Links:
+        Links.append(p[0])
 
-len(ceLinks)
+len(Links)
 
-with open('ceLinks.txt', 'w', encoding='utf-8') as f:
-    for c in ceLinks:
-        f.write(c+"\n")
+filename = KeyWord +'.txt'
+with open(filename, 'w', encoding='utf-8') as f:
+    for l in Links:
+        f.write(l+"\n")
     f.close()
+
 
 
