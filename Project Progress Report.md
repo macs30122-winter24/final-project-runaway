@@ -51,6 +51,14 @@ If your final deliverable is not a traditional data analysis, but more like a pr
 
 ## 6. Responsibilities
 List the responsibilities of each team member. Remember to account for the in-class presentation, short video, final report, and README. See Canvas “Final Project Overview.”  
+Data collection Agens XU Anny Liu
+Data cleaning/wrangling Agens XU
+Data analysis Anny Liu
+Data visualization Anny Liu
+presentation script Huanrui CHEN Tianle YE
+short video Tianle YE Agens XU
+final report Huanrui CHEN Tianle YE
+README Huanrui CHEN
 
 ## 7. Workplan (optional)
 If useful for the group, create a plan with a list of tasks and a timeline that specifies when each task should be completed between now and the in-class presentations and final submission.
