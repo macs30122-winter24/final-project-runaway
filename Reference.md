@@ -15,4 +15,13 @@ Formulation Initiatives: The EU-Community Approach](https://inria.hal.science/ha
 3. Tachaiya, Jakapun, Joobin Gharibshah, Kevin E. Esterling, and Michalis Faloutsos. "Raffman: measuring and analyzing sentiment in online political forum discussions with an application to the Trump impeachment." In Proceedings of the International AAAI Conference on Web and Social Media, vol. 15, pp. 703-713. 2021.
 
 
+## literature review: authoritarian crackdowns and public opinion/dissents + public and private preferences
+1.Deibert, R. (2015). Authoritarianism Goes Global: Cyberspace Under Siege. Journal of Democracy, 26(3), 64–78. https://doi.org/10.1353/jod.2015.0051
+2.Gupta, D. K., Singh, H., & Sprague, T. (1993). Government Coercion of Dissidents: Deterrence or Provocation? Journal of Conflict Resolution, 37(2), 301–339. https://doi.org/10.1177/0022002793037002004
+3.Kuran, T. (1997). Private truths, public lies: The social consequences of preference falsification (sec. print). Harvard Univ. Press.
+4.Lichbach, M. I. (1987). Deterrence or Escalation?: The Puzzle of Aggregate Studies of Repression and Dissent. Journal of Conflict Resolution, 31(2), 266–297. https://doi.org/10.1177/0022002787031002003
+5.Opp, K.-D., & Roehl, W. (1990). Repression, Micromobilization, and Political Protest. Social Forces, 69(2), 521. https://doi.org/10.2307/2579672
+6.Pan, J., & Siegel, A. A. (2020). How Saudi Crackdowns Fail to Silence Online Dissent. American Political Science Review, 114(1), 109–125. https://doi.org/10.1017/S0003055419000650
+7.Sullivan, C. M., & Davenport, C. (2017). THE REBEL ALLIANCE STRIKES BACK: UNDERSTANDING THE POLITICS OF BACKLASH MOBILIZATION*. Mobilization: An International Quarterly, 22(1), 39–56. https://doi.org/10.17813/1086-671X-22-1-39
+
 
