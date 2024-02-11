@@ -21,6 +21,7 @@ The specific research questions we answer in this project are: What is the impac
 Our studies offer two advantages over the existing literature. First, the Hong Kong case could show how the foreign authoritarian rule impacts public opinion in a free and democratic society. The Anti-Extradition Bill Movement is a transiting point in Hong Kong history, marking the CCP’s hijack of its electoral and legal system. This special case may uncover more nuances in the study of the state repressions’ effect on public opinion. Second, our studies utilize social media posts and sentimental analysis to study public opinion. Few current studies use large-scale social media posts to study offline crackdown’s impact on online public opinion, with Pan and Siegel in 2020 claim that they are the first scholars to do so. Moreover, in the case of Hong Kong where censorship at large allows for free political discussion, the social media posts might better capture the average citizens’ political opinion. Our comparison between social media data and survey data could further more comprehensively represent the political orientations of Hong Kong citizens after the crackdown.
 
 ## 3. Data Sources
+[Keyword table](Keywords.md)
 
 ### Data source #2 PORI survey data
 (See Data folder in PORIHK-survey folder for data examples; Due to the large number, not all data files were uploaded, only one sample from each survey was uploaded)
