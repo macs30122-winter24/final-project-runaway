@@ -23,6 +23,17 @@ Our studies offer two advantages over the existing literature. First, the Hong K
 ## 3. Data Sources
 We create a [Keyword table](https://github.com/macs30122-winter24/final-project-runaway/blob/main/Keywords.md?raw=true) based on previous research on Hong Kong's digital political vocabulary, it is categorised into: Democracy and Justice, Protest and Resistance, Government and Governance. Our discussion primarily focuses on two aspects: firstly, the shift in Hong Kong residents' attitudes towards the Hong Kong government, and secondly, the differences between social media and survey data. Therefore, our data sources need to be relevant to political discussions and involve both social media and survey data sources. Consequently, we chose LIHKG, the largest political discussion forum in Hong Kong, as our data crawling target, and obtained historical public opinion survey data from the database of the Hong Kong Public Opinion Research Institute, the largest opinion survey center in Hong Kong.
 
+### Data source #1 LiHKG scraped data
+
+• Data type: Scraping
+
+• Time frame:
+
+• Data size so far: 
+We've successfully scraped post links of all search result for three sample keywords using dynamic scraping. The number of posts including each keywords is around 450. The contents of the post were currently stored in separate txt files for testing purpose, and will be processed into pandas dataframe with a sample weight calculated from the scrape agree/disagree amount.
+
+(See Scrapers folder for sample links and post contents)
+
 ### Data source #2 PORI survey data
 The Hong Kong Public Opinion Research Institute (PORI), formerly known as the Public Opinion Programme at the University of Hong Kong, is a non-profit organization in Hong Kong specializing in public opinion surveys and research, established in 1991. The institute primarily utilizes telephone interviews, online surveys, and face-to-face interviews as its main data collection methods, focusing on gathering views and attitudes of the Hong Kong public on various domains such as society, politics, and the economy. The institute promotes open data and technology sharing, as well as freedom of thought, knowledge, and information, allowing us to use the data without violating ethical and copyright rules at no cost.
 (See Data folder in PORIHK-survey folder in the Github repository for complete data; Due to the large number, not all data files were uploaded, only one sample from each survey was uploaded)
@@ -35,6 +46,9 @@ The Hong Kong Public Opinion Research Institute (PORI), formerly known as the Pu
 We have surveys categorized by themes, such as Freedom Indicators and Social Indicators, with each survey encompassing several subtopics. For instance, Freedom Indicators include a total of 9 subtopics, such as Appraisal of Freedom of Speech. To match the 19 keywords we chose, we selected 19 surveys in the following 8 themes: Social Conditions Evaluation, Social Policy Evaluation, Freedom Indicators, Rule of Law Indicators, Chief Executive Popularity, Government Popularity, Public Sentiment Index, and Trust and Confidence Index. Each surveys containing public opinion results on specific topics from Hong Kong citizens from 1993 to 2024. The original data volume is around 100,000. We conducted data cleaning and integration based on the time frame, reducing the data volume to under 30,000.
 
 ## 4. Data cleaning/wrangling 
+
+### Data source #1 PORI survey data
+The scraped data are comments written in Cantonese, which needs further cleaning and parsing with existing Cantonese processing api. We'll use PyCantonese for parsing and sentimental analysis.
 
 ### Data source #2 PORI survey data
 (See testLCJ, test2017.ipynb, and testtrust_democracy.ipynb in the PORIHK-survey folder for data cleaning code)
@@ -117,6 +131,6 @@ Pan, J., & Siegel, A. A. (2020). How Saudi Crackdowns Fail to Silence Online Dis
 
 Sullivan, C. M., & Davenport, C. (2017). THE REBEL ALLIANCE STRIKES BACK: UNDERSTANDING THE POLITICS OF BACKLASH MOBILIZATION*. Mobilization: An International Quarterly, 22(1), 39–56. https://doi.org/10.17813/1086-671X-22-1-39
 
-Huang, Chunxiao, Chunyu Li, Shaowen Yao, Ye Ding, Mingsuo Bao, and Kun She. "A Hybrid scheme for Parsing Cantonese Text Based on PyCantonese Plus and PyLTP." In 2022 European Conference on Natural Language Processing and Information Retrieval (ECNLPIR), pp. 47-51. IEEE, 2022.
+Lee, J. L. (2015). PyCantonese: Cantonese linguistic research in the age of big data. Talk at the Childhood Bilingualism Research Centre, the Chinese University of Hong Kong.
 
-Erni, John Nguyet, and Yin Zhang. "Wild hopes: Sourcing the political vocabulary of digital citizenship from the LIHKG forum." International Communication Gazette 84, no. 4 (2022): 349-375.
+Erni, J. N., & Zhang, Y. (2022). Wild hopes: Sourcing the political vocabulary of digital citizenship from the LIHKG forum. International Communication Gazette, 84(4), 349-375.
