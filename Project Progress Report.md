@@ -44,10 +44,9 @@ For both surveys, since the survey dataset itself is relatively clean, only scor
 ## 5. Data analysis and visualization
 
 ### Data source #2 PORI survey data
-We also used the keywords from the political vocabulary list utilized in the crawler as filtering criteria to select related questionnaire content, enabling us to compare the results of the public opinion survey with the outcomes of the internet discussions crawled. In the following example, we present the visualization of data about the Hong Kong Chief Executive and the level of trust in the government, which correspond to "Chief Executive" and "Government" in the keywords of the topic "Government and Governance".
+We also used the keywords from the political vocabulary list utilized in the crawler as filtering criteria to select related questionnaire content, enabling us to compare the results of the public opinion survey with the outcomes of the internet discussions crawled. In the following example, we present the visualization of data about the Chief Executive of Hong Kong, trust in the government, and evaluation of the Hong Kong government's development of democracy, which correspond to "Chief Executive" and "Government" in the keywords of the topic "Government and Governance" and "Democracy" of the topic "Democracy and Justice"
 
 Examples:
-
 • Rating of Chief Executive John Lee
 
 ![Rating of Chief Executive John Lee by month](https://github.com/macs30122-winter24/final-project-runaway/blob/main/Image/Rating%20of%20Chief%20Executive%20John%20Lee%20by%20month.png?raw=true)
@@ -56,25 +55,35 @@ Examples:
 • Satisfaction level of the development of democracy by the Hong Kong Government
 ![Democracy](Image/Democracy.png)
 
+
 •Level of trust in the Hong Kong Government
 ![Trust](Image/Gov_trust.png)
 
+
 ## 6. Responsibilities
-Data collection: Agens XU Anny Liu
+Data collection: 
+Agens XU Anny Liu
 
-Data cleaning/wrangling: Agens XU
+Data cleaning/wrangling: 
+Agens XU
 
-Data analysis: Anny Liu
+Data analysis: 
+Anny Liu
 
-Data visualization: Anny Liu
+Data visualization: 
+Anny Liu
 
-presentation script: Huanrui CHEN Tianle YE
+Presentation script: 
+Huanrui CHEN Tianle YE
 
-short video: Tianle YE Agens XU
+Short video: 
+Tianle YE Agens XU
 
-final report: Huanrui CHEN Tianle YE
+Final report: 
+Huanrui CHEN Tianle YE
 
-README: Huanrui CHEN
+README: 
+Huanrui CHEN
 
 ## 7. Workplan (optional)
 Before February 10th (Completed Work): 
