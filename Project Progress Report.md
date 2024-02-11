@@ -51,9 +51,19 @@ Examples:
 
 • Rating of Chief Executive John Lee (by month, gender, and age group)
 
-![Rating of Chief Executive John Lee by age]("Image/Rating of Chief Executive John Lee by age.png")
+![Rating of Chief Executive John Lee by month](https://github.com/macs30122-winter24/final-project-runaway/blob/main/Image/Rating%20of%20Chief%20Executive%20John%20Lee%20by%20month.png?raw=true)
+
+![Rating of Chief Executive John Lee by gender](https://github.com/macs30122-winter24/final-project-runaway/blob/main/Image/Rating%20of%20Chief%20Executive%20John%20Lee%20by%20gender.png?raw=true)
+
+![Rating of Chief Executive John Lee by age](https://github.com/macs30122-winter24/final-project-runaway/blob/main/Image/Rating%20of%20Chief%20Executive%20John%20Lee%20by%20age.png?raw=true)
 
 • 2017 CE election vote plot (by time, total vote count, and distribution)
+
+![2017 vote by time](https://github.com/macs30122-winter24/final-project-runaway/blob/main/Image/2017%20vote%20total%20count.png?raw=true)
+
+![2017 vote total count](https://github.com/macs30122-winter24/final-project-runaway/blob/main/Image/2017%20vote%20plot.png?raw=true)
+
+![2017 vote distribution](https://github.com/macs30122-winter24/final-project-runaway/blob/main/Image/2017%20vote%20distribution.png?raw=true)
 
 ## 6. Responsibilities
 Data collection Agens XU Anny Liu
