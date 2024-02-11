@@ -55,7 +55,7 @@ Examples:
 
 • Satisfaction level of the development of democracy by the Hong Kong Government
 
-![Democracy](Image/Democracy.png)
+![Democracy](https://github.com/macs30122-winter24/final-project-runaway/blob/main/Image/Democracy.png)
 
 
 •Level of trust in the Hong Kong Government
