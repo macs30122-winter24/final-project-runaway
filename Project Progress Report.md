@@ -21,43 +21,53 @@ The specific research questions we answer in this project are: What is the impac
 Our studies offer two advantages over the existing literature. First, the Hong Kong case could show how the foreign authoritarian rule impacts public opinion in a free and democratic society. The Anti-Extradition Bill Movement is a transiting point in Hong Kong history, marking the CCP’s hijack of its electoral and legal system. This special case may uncover more nuances in the study of the state repressions’ effect on public opinion. Second, our studies utilize social media posts and sentimental analysis to study public opinion. Few current studies use large-scale social media posts to study offline crackdown’s impact on online public opinion, with Pan and Siegel in 2020 claim that they are the first scholars to do so. Moreover, in the case of Hong Kong where censorship at large allows for free political discussion, the social media posts might better capture the average citizens’ political opinion. Our comparison between social media data and survey data could further more comprehensively represent the political orientations of Hong Kong citizens after the crackdown.
 
 ## 3. Data Sources
-Collect a sample of data from each source before completing this part; only list sources if you are sure you can gather data from them. For each data source you plan to use, include the following (organize them as you prefer: written form, table, list, etc.):
-•	type of data collection (scraping or downloading)
 
-•	time frame (e.g. all year 2021, month of January 2024, etc.)
+### Data source #2 PORI survey data
+(See Data folder in PORIHK-survey folder for data examples; Due to the large number, not all data files were uploaded, only one sample from each survey was uploaded)
 
-•	how much data you have collected so far OR you plan to collect (size of the dataset, or expected results from scraping)
+• Data type: Downloading
 
-•	possible data reliability/validity issues and how you plan to mitigate them
+• Time frame: 2017.3 - 2024.1
 
-•	provide additional information that could be useful to share (e.g., unit of analysis, search terms if you collect textual data, etc.)
+• Data size so far: about 100 surveys
 
-For example: 
-“Data source #1. Reddit: we plan to collect all posts and comments from the subreddit named x from y to z period; so far, we have collected… this sample is the most accurate to answer your project question because… limits of this sample include…”
+• Additional information: so far we have collected surveys on two subjects (the 2017 CE election rolling survey and the Rating of Chief Executives). Information from this data source will be used to capture citizens' public political preferences (including satisfaction of  leaders and opinions on elections). 
+
 
 ## 4. Data cleaning/wrangling 
-Describe data cleaning and/or data wrangling/merging  tasks that you plan to perform to get the data into the right shape. This can be a general description of data cleaning procedures or a detailed list for each data source (this part will greatly vary according to the project). 
-For example: 
-“We plan to merge area zip codes with Airbnb data, aggregate all sales on a specific item, perform x and y data cleaning/processing which is required for textual analysis on x data” etc.
+
+### Data source #2 PORI survey data
+(See testLCJ and test2017.ipynb in the PORIHK-survey folder for data cleaning code)
+
+For both surveys, since the survey dataset itself is relatively clean, only scores exceeding the range (scores greater than 100) and some invalid options (including some negative scores representing "refuse to answer") have been excluded. In addition to this, for the CE-scored survey dataset, the data is currently integrated by month (rather than day) for the time being. Since the dates in the (first data source) forum are only recorded up to the year, further consolidation of this data may be carried out at a later stage according to the needs of specific analyses.
+
 
 ## 5. Data analysis and visualization
-Describe the data analyses and visualizations you plan to perform on your data. Make sure to include the following:
-•	List your dependent (what you want to explain) and your independent variables; if applicable, how you plan to construct these variables (e.g., “our x variable is at the individual level but we need it at the state level, thus we aggregate the data”, etc.)
 
-•	Explain which data analysis approach/es you plan to take (e.g., “we plan to conduct sentiment analysis using x data source, we use labeled data developed by x source which are applicable to our data for this and this reason, the training dataset consists of, etc.; we plan to conduct logistic regression using x data source” etc.); each project with a data analysis section should include descriptive statistics and visualizations of the data
+### Data source #2 PORI survey data
+As the collection of all data from the first source has not yet been completed, only descriptive statistics are currently available.
 
-•	Describe what you expect to visualize/display
-If your final deliverable is not a traditional data analysis, but more like a product (an interactive interface, etc.), then you won’t have a traditional data analysis, but please describe what you plan to generate by providing as many details as possible.  
+Examples:
+
+• Rating of Chief Executive John Lee (by month, gender, and age group)
+
+• 2017 CE election vote plot (by time, total vote count, and distribution)
 
 ## 6. Responsibilities
-List the responsibilities of each team member. Remember to account for the in-class presentation, short video, final report, and README. See Canvas “Final Project Overview.”  
 Data collection Agens XU Anny Liu
+
 Data cleaning/wrangling Agens XU
+
 Data analysis Anny Liu
+
 Data visualization Anny Liu
+
 presentation script Huanrui CHEN Tianle YE
+
 short video Tianle YE Agens XU
+
 final report Huanrui CHEN Tianle YE
+
 README Huanrui CHEN
 
 ## 7. Workplan (optional)
