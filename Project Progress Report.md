@@ -96,7 +96,7 @@ Complete the analysis and visualization of all crawled data, compare the crawled
 March 3rd: 
 Complete the final project report and video.
 
-Bibliography
+## Bibliography
 
 Deibert, R. (2015). Authoritarianism Goes Global: Cyberspace Under Siege. Journal of Democracy, 26(3), 64–78. https://doi.org/10.1353/jod.2015.0051
 
