@@ -20,22 +20,6 @@ The specific research questions we answer in this project are: What is the impac
 
 Our studies offer two advantages over the existing literature. First, the Hong Kong case could show how the foreign authoritarian rule impacts public opinion in a free and democratic society. The Anti-Extradition Bill Movement is a transiting point in Hong Kong history, marking the CCP’s hijack of its electoral and legal system. This special case may uncover more nuances in the study of the state repressions’ effect on public opinion. Second, our studies utilize social media posts and sentimental analysis to study public opinion. Few current studies use large-scale social media posts to study offline crackdown’s impact on online public opinion, with Pan and Siegel in 2020 claim that they are the first scholars to do so. Moreover, in the case of Hong Kong where censorship at large allows for free political discussion, the social media posts might better capture the average citizens’ political opinion. Our comparison between social media data and survey data could further more comprehensively represent the political orientations of Hong Kong citizens after the crackdown.
 
-Bibliography
-
-Deibert, R. (2015). Authoritarianism Goes Global: Cyberspace Under Siege. Journal of Democracy, 26(3), 64–78. https://doi.org/10.1353/jod.2015.0051
-
-Gupta, D. K., Singh, H., & Sprague, T. (1993). Government Coercion of Dissidents: Deterrence or Provocation? Journal of Conflict Resolution, 37(2), 301–339. https://doi.org/10.1177/0022002793037002004
-
-Kuran, T. (1997). Private truths, public lies: The social consequences of preference falsification (sec. print). Harvard Univ. Press.
-
-Lichbach, M. I. (1987). Deterrence or Escalation?: The Puzzle of Aggregate Studies of Repression and Dissent. Journal of Conflict Resolution, 31(2), 266–297. https://doi.org/10.1177/0022002787031002003
-
-Opp, K.-D., & Roehl, W. (1990). Repression, Micromobilization, and Political Protest. Social Forces, 69(2), 521. https://doi.org/10.2307/2579672
-
-Pan, J., & Siegel, A. A. (2020). How Saudi Crackdowns Fail to Silence Online Dissent. American Political Science Review, 114(1), 109–125. https://doi.org/10.1017/S0003055419000650
-
-Sullivan, C. M., & Davenport, C. (2017). THE REBEL ALLIANCE STRIKES BACK: UNDERSTANDING THE POLITICS OF BACKLASH MOBILIZATION*. Mobilization: An International Quarterly, 22(1), 39–56. https://doi.org/10.17813/1086-671X-22-1-39
-
 ## 3. Data Sources
 Collect a sample of data from each source before completing this part; only list sources if you are sure you can gather data from them. For each data source you plan to use, include the following (organize them as you prefer: written form, table, list, etc.):
 •	type of data collection (scraping or downloading)
@@ -67,9 +51,32 @@ If your final deliverable is not a traditional data analysis, but more like a pr
 
 ## 6. Responsibilities
 List the responsibilities of each team member. Remember to account for the in-class presentation, short video, final report, and README. See Canvas “Final Project Overview.”  
+Data collection Agens XU Anny Liu
+Data cleaning/wrangling Agens XU
+Data analysis Anny Liu
+Data visualization Anny Liu
+presentation script Huanrui CHEN Tianle YE
+short video Tianle YE Agens XU
+final report Huanrui CHEN Tianle YE
+README Huanrui CHEN
 
 ## 7. Workplan (optional)
 If useful for the group, create a plan with a list of tasks and a timeline that specifies when each task should be completed between now and the in-class presentations and final submission.
 
 This current report will serve as the basis for the final report, which will be an updated version of this report (e.g., it will include the last version/updated version of the same info you reported here + a summary of the project’s takeaways). This and the final report lengths do not matter as long as all required information is included (typically groups write a few pages).
 
+Bibliography
+
+Deibert, R. (2015). Authoritarianism Goes Global: Cyberspace Under Siege. Journal of Democracy, 26(3), 64–78. https://doi.org/10.1353/jod.2015.0051
+
+Gupta, D. K., Singh, H., & Sprague, T. (1993). Government Coercion of Dissidents: Deterrence or Provocation? Journal of Conflict Resolution, 37(2), 301–339. https://doi.org/10.1177/0022002793037002004
+
+Kuran, T. (1997). Private truths, public lies: The social consequences of preference falsification (sec. print). Harvard Univ. Press.
+
+Lichbach, M. I. (1987). Deterrence or Escalation?: The Puzzle of Aggregate Studies of Repression and Dissent. Journal of Conflict Resolution, 31(2), 266–297. https://doi.org/10.1177/0022002787031002003
+
+Opp, K.-D., & Roehl, W. (1990). Repression, Micromobilization, and Political Protest. Social Forces, 69(2), 521. https://doi.org/10.2307/2579672
+
+Pan, J., & Siegel, A. A. (2020). How Saudi Crackdowns Fail to Silence Online Dissent. American Political Science Review, 114(1), 109–125. https://doi.org/10.1017/S0003055419000650
+
+Sullivan, C. M., & Davenport, C. (2017). THE REBEL ALLIANCE STRIKES BACK: UNDERSTANDING THE POLITICS OF BACKLASH MOBILIZATION*. Mobilization: An International Quarterly, 22(1), 39–56. https://doi.org/10.17813/1086-671X-22-1-39
