@@ -48,21 +48,16 @@ We also used the keywords from the political vocabulary list utilized in the cra
 
 Examples:
 
-• Rating of Chief Executive John Lee (by month, gender, and age group)
+• Rating of Chief Executive John Lee
 
 ![Rating of Chief Executive John Lee by month](https://github.com/macs30122-winter24/final-project-runaway/blob/main/Image/Rating%20of%20Chief%20Executive%20John%20Lee%20by%20month.png?raw=true)
 
-![Rating of Chief Executive John Lee by gender](https://github.com/macs30122-winter24/final-project-runaway/blob/main/Image/Rating%20of%20Chief%20Executive%20John%20Lee%20by%20gender.png?raw=true)
 
-![Rating of Chief Executive John Lee by age](https://github.com/macs30122-winter24/final-project-runaway/blob/main/Image/Rating%20of%20Chief%20Executive%20John%20Lee%20by%20age.png?raw=true)
+• Satisfaction level of the development of democracy by the Hong Kong Government
+![Democracy](Image/Democracy.png)
 
-• 2017 CE election vote plot (by time, total vote count, and distribution)
-
-![2017 vote by time](https://github.com/macs30122-winter24/final-project-runaway/blob/main/Image/2017%20vote%20total%20count.png?raw=true)
-
-![2017 vote total count](https://github.com/macs30122-winter24/final-project-runaway/blob/main/Image/2017%20vote%20plot.png?raw=true)
-
-![2017 vote distribution](https://github.com/macs30122-winter24/final-project-runaway/blob/main/Image/2017%20vote%20distribution.png?raw=true)
+•Level of trust in the Hong Kong Government
+![Trust](Image/Gov_trust.png)
 
 ## 6. Responsibilities
 Data collection: Agens XU Anny Liu
@@ -82,8 +77,6 @@ final report: Huanrui CHEN Tianle YE
 README: Huanrui CHEN
 
 ## 7. Workplan (optional)
-If useful for the group, create a plan with a list of tasks and a timeline that specifies when each task should be completed between now and the in-class presentations and final submission.
-
 Before February 10th (Completed Work): 
 Completed the literature review, designed the crawler program, and successfully crawled sample data from the forum. Confirmed the data cleaning workflow for the public opinion survey.
 
