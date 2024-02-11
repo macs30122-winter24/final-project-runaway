@@ -65,26 +65,36 @@ Examples:
 ![2017 vote distribution](https://github.com/macs30122-winter24/final-project-runaway/blob/main/Image/2017%20vote%20distribution.png?raw=true)
 
 ## 6. Responsibilities
-Data collection Agens XU Anny Liu
+Data collection: Agens XU Anny Liu
 
-Data cleaning/wrangling Agens XU
+Data cleaning/wrangling: Agens XU
 
-Data analysis Anny Liu
+Data analysis: Anny Liu
 
-Data visualization Anny Liu
+Data visualization: Anny Liu
 
-presentation script Huanrui CHEN Tianle YE
+presentation script: Huanrui CHEN Tianle YE
 
-short video Tianle YE Agens XU
+short video: Tianle YE Agens XU
 
-final report Huanrui CHEN Tianle YE
+final report: Huanrui CHEN Tianle YE
 
-README Huanrui CHEN
+README: Huanrui CHEN
 
 ## 7. Workplan (optional)
 If useful for the group, create a plan with a list of tasks and a timeline that specifies when each task should be completed between now and the in-class presentations and final submission.
 
-This current report will serve as the basis for the final report, which will be an updated version of this report (e.g., it will include the last version/updated version of the same info you reported here + a summary of the project’s takeaways). This and the final report lengths do not matter as long as all required information is included (typically groups write a few pages).
+Before February 10th (Completed Work): 
+Completed the literature review, designed the crawler program, and successfully crawled sample data from the forum. Confirmed the data cleaning workflow for the public opinion survey.
+
+February 17th: 
+Complete the crawling of forum data, finish the analysis and visualization of the public opinion survey data, write the presentation script, and start the production of the project report and video.
+
+February 24th: 
+Complete the analysis and visualization of all crawled data, compare the crawled data with the public opinion survey data, rehearse the presentation, and continue the production of the project report and video.
+
+March 3rd: 
+Complete the final project report and video.
 
 Bibliography
 
