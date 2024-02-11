@@ -28,23 +28,23 @@ We create a [Keyword table](Keywords.md) based on previous research on Hong Kong
 
 • Data type: Downloading
 
-• Time frame: 2017.3 - 2024.1
+• Time frame: 2017.1 - 2024.1
 
 • Data size so far: 
-We have surveys categorized by themes, such as Freedom Indicators and Social Indicators, with each survey encompassing several subtopics. For instance, Freedom Indicators include a total of 9 subtopics, such as Appraisal of Freedom of Speech. We selected eight themes: Social Conditions Evaluation, Social Policy Evaluation, Freedom Indicators, Rule of Law Indicators, Chief Executive Popularity, Government Popularity, Public Sentiment Index, and Trust and Confidence Index. These themes collectively cover a total of 72 questionnaires, each containing public opinion results on specific topics from Hong Kong citizens from 1993 to 2024. The original data volume is around 250,000. We conducted data cleaning and integration based on the time frme, reducing the data volume to under 50,000.
+We have surveys categorized by themes, such as Freedom Indicators and Social Indicators, with each survey encompassing several subtopics. For instance, Freedom Indicators include a total of 9 subtopics, such as Appraisal of Freedom of Speech. We selected eight themes: Social Conditions Evaluation, Social Policy Evaluation, Freedom Indicators, Rule of Law Indicators, Chief Executive Popularity, Government Popularity, Public Sentiment Index, and Trust and Confidence Index. These themes collectively cover a total of 72 questionnaires, each containing public opinion results on specific topics from Hong Kong citizens from 1993 to 2024. The original data volume is around 250,000. We conducted data cleaning and integration based on the time frame, reducing the data volume to under 50,000.
 
 ## 4. Data cleaning/wrangling 
 
 ### Data source #2 PORI survey data
-(See testLCJ ,test2017.ipynb and testtrust_democracy.ipynb in the PORIHK-survey folder for data cleaning code)
+(See testLCJ, test2017.ipynb, and testtrust_democracy.ipynb in the PORIHK-survey folder for data cleaning code)
 
-For these surveys, since the survey dataset itself is relatively clean, only scores exceeding the range (scores greater than 100) and some invalid options (including some negative scores representing "refuse to answer") have been excluded. In addition to this, for the CE-scored survey dataset, the data is currently integrated by month (rather than day) for the time being, to make the data further available for subsequent analysis and presentation, we translated the Cantonese data into English versions and created numeric indicators and baselines.
+For these surveys, since the survey dataset itself is relatively clean, only scores exceeding the range (scores greater than 100) and some invalid options (including some negative scores representing "refuse to answer") have been excluded, and the data types of some columns have been adjusted to facilitate statistics and graphing. In addition to this, for the CE-scored survey dataset, the data is currently integrated by month (rather than day) for the time being, to make the data further available for subsequent analysis and presentation, we translated the Cantonese data into English versions and created numeric indicators and baselines.
 
 
 ## 5. Data analysis and visualization
 
 ### Data source #2 PORI survey data
-We also used the keywords from the political vocabulary list utilized in the crawler as filtering criteria to select related questionnaire content, enabling us to compare the results of the public opinion survey with the outcomes of the internet discussions crawled. In the following example, we present the visualization of data about the Chief Executive of Hong Kong, trust in the government, and evaluation of the Hong Kong government's development of democracy, which correspond to "Chief Executive" and "Government" in the keywords of the topic "Government and Governance" and "Democracy" of the topic "Democracy and Justice"
+We also used the keywords from the political vocabulary list utilized in the crawler as filtering criteria to select related questionnaire content, enabling us to compare the results of the public opinion survey with the outcomes of the internet discussions crawled. In the following example, we present the visualization of data about the Chief Executive of Hong Kong, trust in the government, and evaluation of the Hong Kong government's development of democracy, which corresponds to "Chief Executive" and "Government" in the keywords of the topic "Government and Governance" and "Democracy" of the topic "Democracy and Justice"
 
 Examples:
 • Rating of Chief Executive John Lee
@@ -53,10 +53,12 @@ Examples:
 
 
 • Satisfaction level of the development of democracy by the Hong Kong Government
+
 ![Democracy](Image/Democracy.png)
 
 
 •Level of trust in the Hong Kong Government
+
 ![Trust](Image/Gov_trust.png)
 
 
