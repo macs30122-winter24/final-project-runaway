@@ -31,7 +31,7 @@ We create a [Keyword table](Keywords.md) based on previous research on Hong Kong
 • Time frame: 2017.1 - 2024.1
 
 • Data size so far: 
-We have surveys categorized by themes, such as Freedom Indicators and Social Indicators, with each survey encompassing several subtopics. For instance, Freedom Indicators include a total of 9 subtopics, such as Appraisal of Freedom of Speech. We selected eight themes: Social Conditions Evaluation, Social Policy Evaluation, Freedom Indicators, Rule of Law Indicators, Chief Executive Popularity, Government Popularity, Public Sentiment Index, and Trust and Confidence Index. These themes collectively cover a total of 72 questionnaires, each containing public opinion results on specific topics from Hong Kong citizens from 1993 to 2024. The original data volume is around 250,000. We conducted data cleaning and integration based on the time frame, reducing the data volume to under 50,000.
+We have surveys categorized by themes, such as Freedom Indicators and Social Indicators, with each survey encompassing several subtopics. For instance, Freedom Indicators include a total of 9 subtopics, such as Appraisal of Freedom of Speech. To match the 19 keywords we chose, we selected 19 surveys in the following 8 themes: Social Conditions Evaluation, Social Policy Evaluation, Freedom Indicators, Rule of Law Indicators, Chief Executive Popularity, Government Popularity, Public Sentiment Index, and Trust and Confidence Index. Each surveys containing public opinion results on specific topics from Hong Kong citizens from 1993 to 2024. The original data volume is around 100,000. We conducted data cleaning and integration based on the time frame, reducing the data volume to under 30,000.
 
 ## 4. Data cleaning/wrangling 
 
