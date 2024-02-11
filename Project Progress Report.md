@@ -36,9 +36,9 @@ We have surveys categorized by themes, such as Freedom Indicators and Social Ind
 ## 4. Data cleaning/wrangling 
 
 ### Data source #2 PORI survey data
-(See testLCJ and test2017.ipynb in the PORIHK-survey folder for data cleaning code)
+(See testLCJ ,test2017.ipynb and testtrust_democracy.ipynb in the PORIHK-survey folder for data cleaning code)
 
-For both surveys, since the survey dataset itself is relatively clean, only scores exceeding the range (scores greater than 100) and some invalid options (including some negative scores representing "refuse to answer") have been excluded. In addition to this, for the CE-scored survey dataset, the data is currently integrated by month (rather than day) for the time being. In addition, we have translated the information in Cantonese into an English version.
+For these surveys, since the survey dataset itself is relatively clean, only scores exceeding the range (scores greater than 100) and some invalid options (including some negative scores representing "refuse to answer") have been excluded. In addition to this, for the CE-scored survey dataset, the data is currently integrated by month (rather than day) for the time being, to make the data further available for subsequent analysis and presentation, we translated the Cantonese data into English versions and created numeric indicators and baselines.
 
 
 ## 5. Data analysis and visualization
