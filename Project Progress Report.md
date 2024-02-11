@@ -21,43 +21,64 @@ The specific research questions we answer in this project are: What is the impac
 Our studies offer two advantages over the existing literature. First, the Hong Kong case could show how the foreign authoritarian rule impacts public opinion in a free and democratic society. The Anti-Extradition Bill Movement is a transiting point in Hong Kong history, marking the CCP’s hijack of its electoral and legal system. This special case may uncover more nuances in the study of the state repressions’ effect on public opinion. Second, our studies utilize social media posts and sentimental analysis to study public opinion. Few current studies use large-scale social media posts to study offline crackdown’s impact on online public opinion, with Pan and Siegel in 2020 claim that they are the first scholars to do so. Moreover, in the case of Hong Kong where censorship at large allows for free political discussion, the social media posts might better capture the average citizens’ political opinion. Our comparison between social media data and survey data could further more comprehensively represent the political orientations of Hong Kong citizens after the crackdown.
 
 ## 3. Data Sources
-Collect a sample of data from each source before completing this part; only list sources if you are sure you can gather data from them. For each data source you plan to use, include the following (organize them as you prefer: written form, table, list, etc.):
-•	type of data collection (scraping or downloading)
+We create a [Keyword table](Keywords.md) based on previous research on Hong Kong's digital political vocabulary, it is categorised into: Democracy and Justice, Protest and Resistance, Government and Governance. Our discussion primarily focuses on two aspects: firstly, the shift in Hong Kong residents' attitudes towards the Hong Kong government, and secondly, the differences between social media and survey data. Therefore, our data sources need to be relevant to political discussions and involve both social media and survey data sources. Consequently, we chose LIHKG, the largest political discussion forum in Hong Kong, as our data crawling target, and obtained historical public opinion survey data from the database of the Hong Kong Public Opinion Research Institute, the largest opinion survey center in Hong Kong.
 
-•	time frame (e.g. all year 2021, month of January 2024, etc.)
+### Data source #2 PORI survey data
+(See Data folder in PORIHK-survey folder in the Github repository for complete data; Due to the large number, not all data files were uploaded, only one sample from each survey was uploaded)
 
-•	how much data you have collected so far OR you plan to collect (size of the dataset, or expected results from scraping)
+• Data type: Downloading
 
-•	possible data reliability/validity issues and how you plan to mitigate them
+• Time frame: 2017.3 - 2024.1
 
-•	provide additional information that could be useful to share (e.g., unit of analysis, search terms if you collect textual data, etc.)
-
-For example: 
-“Data source #1. Reddit: we plan to collect all posts and comments from the subreddit named x from y to z period; so far, we have collected… this sample is the most accurate to answer your project question because… limits of this sample include…”
+• Data size so far: 
+We have surveys categorized by themes, such as Freedom Indicators and Social Indicators, with each survey encompassing several subtopics. For instance, Freedom Indicators include a total of 9 subtopics, such as Appraisal of Freedom of Speech. We selected eight themes: Social Conditions Evaluation, Social Policy Evaluation, Freedom Indicators, Rule of Law Indicators, Chief Executive Popularity, Government Popularity, Public Sentiment Index, and Trust and Confidence Index. These themes collectively cover a total of 72 questionnaires, each containing public opinion results on specific topics from Hong Kong citizens from 1993 to 2024. The original data volume is around 250,000. We conducted data cleaning and integration based on the time frme, reducing the data volume to under 50,000.
 
 ## 4. Data cleaning/wrangling 
-Describe data cleaning and/or data wrangling/merging  tasks that you plan to perform to get the data into the right shape. This can be a general description of data cleaning procedures or a detailed list for each data source (this part will greatly vary according to the project). 
-For example: 
-“We plan to merge area zip codes with Airbnb data, aggregate all sales on a specific item, perform x and y data cleaning/processing which is required for textual analysis on x data” etc.
+
+### Data source #2 PORI survey data
+(See testLCJ and test2017.ipynb in the PORIHK-survey folder for data cleaning code)
+
+For both surveys, since the survey dataset itself is relatively clean, only scores exceeding the range (scores greater than 100) and some invalid options (including some negative scores representing "refuse to answer") have been excluded. In addition to this, for the CE-scored survey dataset, the data is currently integrated by month (rather than day) for the time being. In addition, we have translated the information in Cantonese into an English version.
+
 
 ## 5. Data analysis and visualization
-Describe the data analyses and visualizations you plan to perform on your data. Make sure to include the following:
-•	List your dependent (what you want to explain) and your independent variables; if applicable, how you plan to construct these variables (e.g., “our x variable is at the individual level but we need it at the state level, thus we aggregate the data”, etc.)
 
-•	Explain which data analysis approach/es you plan to take (e.g., “we plan to conduct sentiment analysis using x data source, we use labeled data developed by x source which are applicable to our data for this and this reason, the training dataset consists of, etc.; we plan to conduct logistic regression using x data source” etc.); each project with a data analysis section should include descriptive statistics and visualizations of the data
+### Data source #2 PORI survey data
+We also used the keywords from the political vocabulary list utilized in the crawler as filtering criteria to select related questionnaire content, enabling us to compare the results of the public opinion survey with the outcomes of the internet discussions crawled. In the following example, we present the visualization of data about the Hong Kong Chief Executive and the level of trust in the government, which correspond to "Chief Executive" and "Government" in the keywords of the topic "Government and Governance".
 
-•	Describe what you expect to visualize/display
-If your final deliverable is not a traditional data analysis, but more like a product (an interactive interface, etc.), then you won’t have a traditional data analysis, but please describe what you plan to generate by providing as many details as possible.  
+Examples:
+
+• Rating of Chief Executive John Lee (by month, gender, and age group)
+
+![Rating of Chief Executive John Lee by month](https://github.com/macs30122-winter24/final-project-runaway/blob/main/Image/Rating%20of%20Chief%20Executive%20John%20Lee%20by%20month.png?raw=true)
+
+![Rating of Chief Executive John Lee by gender](https://github.com/macs30122-winter24/final-project-runaway/blob/main/Image/Rating%20of%20Chief%20Executive%20John%20Lee%20by%20gender.png?raw=true)
+
+![Rating of Chief Executive John Lee by age](https://github.com/macs30122-winter24/final-project-runaway/blob/main/Image/Rating%20of%20Chief%20Executive%20John%20Lee%20by%20age.png?raw=true)
+
+• 2017 CE election vote plot (by time, total vote count, and distribution)
+
+![2017 vote by time](https://github.com/macs30122-winter24/final-project-runaway/blob/main/Image/2017%20vote%20total%20count.png?raw=true)
+
+![2017 vote total count](https://github.com/macs30122-winter24/final-project-runaway/blob/main/Image/2017%20vote%20plot.png?raw=true)
+
+![2017 vote distribution](https://github.com/macs30122-winter24/final-project-runaway/blob/main/Image/2017%20vote%20distribution.png?raw=true)
 
 ## 6. Responsibilities
-List the responsibilities of each team member. Remember to account for the in-class presentation, short video, final report, and README. See Canvas “Final Project Overview.”  
 Data collection Agens XU Anny Liu
+
 Data cleaning/wrangling Agens XU
+
 Data analysis Anny Liu
+
 Data visualization Anny Liu
+
 presentation script Huanrui CHEN Tianle YE
+
 short video Tianle YE Agens XU
+
 final report Huanrui CHEN Tianle YE
+
 README Huanrui CHEN
 
 ## 7. Workplan (optional)
