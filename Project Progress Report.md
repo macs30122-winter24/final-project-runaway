@@ -51,6 +51,8 @@ Examples:
 
 • Rating of Chief Executive John Lee (by month, gender, and age group)
 
+![Rating of Chief Executive John Lee by age]("Image/Rating of Chief Executive John Lee by age.png")
+
 • 2017 CE election vote plot (by time, total vote count, and distribution)
 
 ## 6. Responsibilities
