@@ -55,12 +55,12 @@ Examples:
 
 • Satisfaction level of the development of democracy by the Hong Kong Government
 
-![Democracy](https://github.com/macs30122-winter24/final-project-runaway/blob/main/Image/Democracy.png)
+![Democracy](https://github.com/macs30122-winter24/final-project-runaway/blob/main/Image/Democracy.png?raw=true)
 
 
 •Level of trust in the Hong Kong Government
 
-![Trust](https://github.com/macs30122-winter24/final-project-runaway/blob/main/Image/Gov_trust.png)
+![Trust](https://github.com/macs30122-winter24/final-project-runaway/blob/main/Image/Gov_trust.png?raw=true)
 
 
 ## 6. Responsibilities
