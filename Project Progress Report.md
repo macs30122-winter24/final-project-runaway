@@ -7,7 +7,7 @@
   Huanrui CHEN hchen0628@uchicago.edu  
   Tianle YE tye1@uchicago.edu  
 • GitHub Repository Link 
-[https://github.com/macs30122-winter24/final-project-runaway](https://github.com/macs30122-winter24/final-project-runaway)
+[https://github.com/macs30122-winter24/final-project-runaway](https://github.com/macs30122-winter24/final-project-runaway)](https://github.com/macs30122-winter24/final-project-runaway/blob/main/Keywords.md)
 
 ## 2. Project Description
 The 2019-2020 Hong Kong Anti-Extradition Bill Movement was a series of massive demonstrations against the introduction of a bill to extradite Fugitive Offenders Ordinance and the intervention of the China Communist Party (CCP) into Hong Kong domestic political system. The movement caught global attention but ended bitterly in 2020 with the CCP’s promulgation of the Hong Kong National Security Law on 30 June 2020. The law claimed to safeguard national security within the Hong Kong Special Administrative Region and deal with acts of secession, subversion of state power, terrorist activities, and collusion with foreign or offshore forces that endanger national security. Based on this law, the Hong Kong government prosecuted a large number of dissidents and political activists who were previously engaged in the movement. In 2021, the CCP restructured the Hong Kong electoral system with the introduction of the National People's Congress Standing Committee’s amendments to Hong Kong Basic Law, significantly undercutting prospects of universal suffrage in Hong Kong’s future elections. With the new amendments, only 88 out of the 470 seats in the Hong Kong Legislative Council are directly voted by Hong Kong citizens, with the rest controlled by the CCP to varying degrees. The turnout rate of the latest 2023 Hong Kong local elections dropped by 44% compared with the 2019 election, plummeting to a historical low of 27%. It could be expected that the public sphere in Hong Kong has been dramatically transformed after the Anti-Extradition Bill Movement.
@@ -60,7 +60,7 @@ Examples:
 
 •Level of trust in the Hong Kong Government
 
-![Trust](Image/Gov_trust.png)
+![Trust](https://github.com/macs30122-winter24/final-project-runaway/blob/main/Image/Gov_trust.png)
 
 
 ## 6. Responsibilities
