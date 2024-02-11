@@ -58,6 +58,10 @@ For these surveys, since the survey dataset itself is relatively clean, only sco
 
 ## 5. Data analysis and visualization
 
+### Data source #1 LiHKG data
+
+We parsed the posts and comments into lists of words and did a seris of content analysis. First we summarized words that appears most frequently with our preselected keywords and visualize that in wordcloud plots. And then we conducted sentimental analysis to infer the attitude of forum users on this specific topic. The sentimental score will then be compared with the satisfactory score in PORI survey.
+
 ### Data source #2 PORI survey data
 We also used the keywords from the political vocabulary list utilized in the crawler as filtering criteria to select related questionnaire content, enabling us to compare the results of the public opinion survey with the outcomes of the internet discussions crawled. In the following example, we present the visualization of data about the Chief Executive of Hong Kong, trust in the government, and evaluation of the Hong Kong government's development of democracy, which corresponds to "Chief Executive" and "Government" in the keywords of the topic "Government and Governance" and "Democracy" of the topic "Democracy and Justice"
 
