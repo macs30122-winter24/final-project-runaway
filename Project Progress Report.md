@@ -116,3 +116,7 @@ Opp, K.-D., & Roehl, W. (1990). Repression, Micromobilization, and Political Pro
 Pan, J., & Siegel, A. A. (2020). How Saudi Crackdowns Fail to Silence Online Dissent. American Political Science Review, 114(1), 109–125. https://doi.org/10.1017/S0003055419000650
 
 Sullivan, C. M., & Davenport, C. (2017). THE REBEL ALLIANCE STRIKES BACK: UNDERSTANDING THE POLITICS OF BACKLASH MOBILIZATION*. Mobilization: An International Quarterly, 22(1), 39–56. https://doi.org/10.17813/1086-671X-22-1-39
+
+Huang, Chunxiao, Chunyu Li, Shaowen Yao, Ye Ding, Mingsuo Bao, and Kun She. "A Hybrid scheme for Parsing Cantonese Text Based on PyCantonese Plus and PyLTP." In 2022 European Conference on Natural Language Processing and Information Retrieval (ECNLPIR), pp. 47-51. IEEE, 2022.
+
+Erni, John Nguyet, and Yin Zhang. "Wild hopes: Sourcing the political vocabulary of digital citizenship from the LIHKG forum." International Communication Gazette 84, no. 4 (2022): 349-375.
