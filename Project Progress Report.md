@@ -21,19 +21,17 @@ The specific research questions we answer in this project are: What is the impac
 Our studies offer two advantages over the existing literature. First, the Hong Kong case could show how the foreign authoritarian rule impacts public opinion in a free and democratic society. The Anti-Extradition Bill Movement is a transiting point in Hong Kong history, marking the CCP’s hijack of its electoral and legal system. This special case may uncover more nuances in the study of the state repressions’ effect on public opinion. Second, our studies utilize social media posts and sentimental analysis to study public opinion. Few current studies use large-scale social media posts to study offline crackdown’s impact on online public opinion, with Pan and Siegel in 2020 claim that they are the first scholars to do so. Moreover, in the case of Hong Kong where censorship at large allows for free political discussion, the social media posts might better capture the average citizens’ political opinion. Our comparison between social media data and survey data could further more comprehensively represent the political orientations of Hong Kong citizens after the crackdown.
 
 ## 3. Data Sources
-[Keyword table](Keywords.md)
+We create a [Keyword table](Keywords.md) based on previous research on Hong Kong's digital political vocabulary, it is categorised into: Democracy and Justice, Protest and Resistance, Government and Governance.
 
 ### Data source #2 PORI survey data
-(See Data folder in PORIHK-survey folder for data examples; Due to the large number, not all data files were uploaded, only one sample from each survey was uploaded)
+(See Data folder in PORIHK-survey folder in the Github repository for complete data; Due to the large number, not all data files were uploaded, only one sample from each survey was uploaded)
 
 • Data type: Downloading
 
 • Time frame: 2017.3 - 2024.1
 
-• Data size so far: about 100 surveys
-
-• Additional information: so far we have collected surveys on two subjects (the 2017 CE election rolling survey and the Rating of Chief Executives). Information from this data source will be used to capture citizens' public political preferences (including satisfaction of  leaders and opinions on elections). 
-
+• Data size so far: 
+We have surveys categorized by themes, such as Freedom Indicators and Social Indicators, with each survey encompassing several subtopics. For instance, Freedom Indicators include a total of 9 subtopics, such as Appraisal of Freedom of Speech. We selected eight themes: Social Conditions Evaluation, Social Policy Evaluation, Freedom Indicators, Rule of Law Indicators, Chief Executive Popularity, Government Popularity, Public Sentiment Index, and Trust and Confidence Index. These themes collectively cover a total of 72 questionnaires, each containing public opinion results on specific topics from Hong Kong citizens from 1993 to 2024. The original data volume is around 250,000. We conducted data cleaning and integration based on the time frme, reducing the data volume to under 50,000.
 
 ## 4. Data cleaning/wrangling 
 
