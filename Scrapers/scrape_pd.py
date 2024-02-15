@@ -22,6 +22,7 @@ def ScrapePost(ID):
     timeout = 100
     colnames = ["time","text","support","against"]
     result = dict.fromkeys(colnames, None)
+    result['postid'] = ID
     try:
         element_text = EC.presence_of_element_located((By.CLASS_NAME, '_36ZEkSvpdj_igmog0nluzh'))
         WebDriverWait(browser, timeout).until(element_text)
