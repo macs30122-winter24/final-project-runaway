@@ -91,6 +91,24 @@ def ScrapePost(ID):
 
 test_id = '3573503'    
 rr = ScrapePost(test_id)
-rr.to_csv("sampleOutput3573503.csv", index=False)					
+rr.to_csv("sampleOutput3573503.csv", index=False)	
 
+# Try merge together
+
+rrr = pd.concat([rr, rr], ignore_index=True)
+
+# Run iteratively for all posts under a key word
+with open('投票ids.txt', 'r') as file:
+    ids = file.read()
+
+IDs = re.split(r"\n", ids)
+R = ScrapePost(IDs[0])
+for i in range(1,len(IDs)):
+    print(i)
+    print("*********************")
+    r = ScrapePost(IDs[i])
+    R = pd.concat([R, r], ignore_index=True)
+    print(R.tail())
+
+R.to_csv("sampleVote.csv", index=False)	
     
