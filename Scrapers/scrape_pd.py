@@ -22,7 +22,7 @@ def ScrapePost(ID):
     timeout = 100
     colnames = ["time","text","support","against"]
     result = dict.fromkeys(colnames, None)
-    result['postid'] = ID
+    result["post_id"] = ID
     try:
         element_text = EC.presence_of_element_located((By.CLASS_NAME, '_36ZEkSvpdj_igmog0nluzh'))
         WebDriverWait(browser, timeout).until(element_text)
@@ -87,6 +87,13 @@ def ScrapePost(ID):
                                 result['time'].append(t.get_attribute('title'))
         
                 r = pd.DataFrame(result)
+                date = r['time']
+                yearM = []
+                for i in date:
+                    ym  = re.findall(r"\d{4}\w\d+",i)
+                    yearM.append(re.split(r"年", ym[0]))
+                r["year"] = [i[0] for i in yearM]
+                r["month"] = [i[1] for i in yearM]
     if (browser!=None):
         browser.quit()  
     
@@ -98,7 +105,8 @@ def ScrapePost(ID):
 test_id = '3573503'    
 rr = ScrapePost(test_id)
 rr.to_csv("sampleOutput3573503.csv", index=False)					
-     
+
+    
        
     
     
