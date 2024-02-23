@@ -10,7 +10,7 @@ import re
 import random
 import pandas as pd
 import csv
-
+import sys
 # Note that, due to the ugly naming style of this website
 #our codes can exist 80 char per row standard, which is unevitable, sorry.
 
@@ -35,9 +35,9 @@ def ScrapePost(ID):
         opt = content.find_elements_by_tag_name('option') 
         L = len(opt)
         print("Scraping starts! Now we're scraping post " + ID)
-        for counter in range(L):
-            time.sleep(random.randint(5,10))
+        for counter in range(20,L):
             browser.get("http://lihkg.com/thread/"+ID+"/page/"+str(counter+1))
+            time.sleep(random.randint(5,10))
             try:
                 element_present = EC.presence_of_element_located((By.CLASS_NAME, '_36ZEkSvpdj_igmog0nluzh'))
                 WebDriverWait(browser, timeout).until(element_present)
@@ -47,6 +47,7 @@ def ScrapePost(ID):
                 
             if(not problem):  
                 print("We're now on page" + str(counter))
+                time.sleep(random.randint(2,5))
                 content = browser.find_elements_by_class_name('_36ZEkSvpdj_igmog0nluzh')
                 Time = browser.find_elements_by_class_name('Ahi80YgykKo22njTSCzs_')
                 for cont in content:
@@ -91,24 +92,27 @@ def ScrapePost(ID):
 
 test_id = '3573503'    
 rr = ScrapePost(test_id)
-rr.to_csv("sampleOutput3573503.csv", index=False)	
+rr.to_csv("sampleOutput3573503.csv", index=False)					
 
 # Try merge together
 
 rrr = pd.concat([rr, rr], ignore_index=True)
 
 # Run iteratively for all posts under a key word
-with open('投票ids.txt', 'r') as file:
+with open('./Post_id/民主ids.txt', 'r') as file:
     ids = file.read()
 
 IDs = re.split(r"\n", ids)
 R = ScrapePost(IDs[0])
-for i in range(1,len(IDs)):
+t = 9
+for i in range(t,len(IDs)):
     print(i)
     print("*********************")
     r = ScrapePost(IDs[i])
     R = pd.concat([R, r], ignore_index=True)
     print(R.tail())
-
-R.to_csv("sampleVote.csv", index=False)	
+    time.sleep(random.randint(40,60))
+    t += 1
+ 
+R.to_csv('Democracy.csv', index=False)   
     
