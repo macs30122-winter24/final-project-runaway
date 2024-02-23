@@ -2,11 +2,13 @@ import pandas as pd
 import pycantonese
 import re
 
+stop_words = pycantonese.stop_words()
+
 # Function for text segmentation
 def segment_text(text):
     segmented = pycantonese.segment(text)
     # Use regular expression to remove letters and symbols, keeping only Chinese characters
-    cleaned = [''.join(re.findall('[\u4e00-\u9fff]+', word)) for word in segmented]
+    cleaned = [''.join(re.findall('[\u4e00-\u9fff]+', word)) for word in segmented if word not in stop_words]
     return list(filter(None, cleaned))
 
 # Function to process CSV file and save the results
@@ -25,7 +27,6 @@ def process_csv(file_path):
     output_file_path = file_path.replace('.csv', '_cleaned.json')
     df.to_json(output_file_path, force_ascii=False, orient="records", lines=True)
     print(f"Processed data has been saved to {output_file_path}")
-
 
 if __name__ == "__main__":
     file_path = r"C:\Users\A1157\Documents\WeChat Files\wxid_opdkvrkulx2o32\FileStorage\File\2024-02\Democracy(3).csv"
