@@ -35,7 +35,7 @@ def ScrapePost(ID):
         opt = content.find_elements_by_tag_name('option') 
         L = len(opt)
         print("Scraping starts! Now we're scraping post " + ID)
-        for counter in range(20,L):
+        for counter in range(0,L):
             browser.get("http://lihkg.com/thread/"+ID+"/page/"+str(counter+1))
             time.sleep(random.randint(5,10))
             try:
