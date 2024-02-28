@@ -7,7 +7,7 @@
 ### Cantonese Processing
 1. [PyCantonese](https://pycantonese.org/index.html)
 2. [An Emotion Detection System for Cantonese](https://cdn.aaai.org/ocs/18309/18309-78928-1-PB.pdf)
-3. [Cantonese Stopword List]([https://cdn.aaai.org/ocs/18309/18309-78928-1-PB.pdf](https://github.com/bryanchw/Traditional-Chinese-Stopwords-and-Punctuations-Library))
+3. [Cantonese Stopword List](https://github.com/bryanchw/Traditional-Chinese-Stopwords-and-Punctuations-Library)
 ### Translation
 1. Microsoft Translate API
 ### DTM
