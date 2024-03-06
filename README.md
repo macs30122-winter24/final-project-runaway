@@ -29,4 +29,4 @@ Revised presentation: https://github.com/macs30122-winter24/final-project-runawa
 
 Video link: ?
 
-sentimental analysis materials: https://drive.google.com/file/d/1yHUAGjaKKW_NEkURuIBjm1rhnUtJKUmT/view?usp=drive_link
+Sentimental analysis materials: https://drive.google.com/file/d/1yHUAGjaKKW_NEkURuIBjm1rhnUtJKUmT/view?usp=drive_link
