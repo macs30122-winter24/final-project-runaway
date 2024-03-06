@@ -21,7 +21,7 @@ Formulation Initiatives: The EU-Community Approach](https://inria.hal.science/ha
 3. Tachaiya, Jakapun, Joobin Gharibshah, Kevin E. Esterling, and Michalis Faloutsos. "Raffman: measuring and analyzing sentiment in online political forum discussions with an application to the Trump impeachment." In Proceedings of the International AAAI Conference on Web and Social Media, vol. 15, pp. 703-713. 2021.
 
 
-## Literature review: authoritarian crackdowns and public opinion/dissents + public and private preferences
+### Literature review
 1. Deibert, R. (2015). Authoritarianism Goes Global: Cyberspace Under Siege. Journal of Democracy, 26(3), 64–78. https://doi.org/10.1353/jod.2015.0051
 2. Gupta, D. K., Singh, H., & Sprague, T. (1993). Government Coercion of Dissidents: Deterrence or Provocation? Journal of Conflict Resolution, 37(2), 301–339. https://doi.org/10.1177/0022002793037002004
 3. Kuran, T. (1997). Private truths, public lies: The social consequences of preference falsification (sec. print). Harvard Univ. Press.
