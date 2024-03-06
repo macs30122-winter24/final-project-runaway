@@ -13,6 +13,10 @@
 ### DTM
 1. [Content Analysis Course Materials](https://github.com/UChicago-Computational-Content-Analysis/Homework-Notebooks-2024-Winter/blob/main/week%203/3_Topic_Modeling_and_Clustering.ipynb)
 2. [Dynamic Topic Modeling](https://github.com/piskvorky/gensim/blob/develop/docs/notebooks/ldaseqmodel.ipynb)
+### Sentimental Analysis
+1. [Sentimental Analysis Model](https://github.com/tensorflow/text/tree/master)
+2. [Fine-tuned bert model based on TensorFlow package](https://www.tensorflow.org/text/tutorials/classify_text_with_bert)
+3. [The source of the training data, the microblogging database collected by HITU](https://smp2020ewect.github.io/)
 
 ## Political
 1. [Wild hopes: Sourcing the political vocabulary of digital citizenship from the LIHKG forum](https://journals.sagepub.com/doi/full/10.1177/17480485221094123)
