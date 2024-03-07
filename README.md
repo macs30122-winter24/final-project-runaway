@@ -16,7 +16,7 @@ Sentence splitting(Word segmentation) and tokenisation in Cantonese: https://git
 
 Cantonese to English: https://github.com/macs30122-winter24/final-project-runaway/blob/main/microsoft%20translate%20api.py
 
-Cleaned scraped dataset: https://github.com/macs30122-winter24/final-project-runaway/tree/main/clean%20data
+Cleaned scraped dataset: [https://github.com/macs30122-winter24/final-project-runaway/tree/main/clean%20data](https://github.com/macs30122-winter24/final-project-runaway/tree/main/clean%20data)
 
 Data sources: <br/>
 LIHKG: https://lihkg.com/category/1; <br/>
