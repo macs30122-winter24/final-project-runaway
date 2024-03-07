@@ -8,7 +8,10 @@ To process the survey data, we download keyword-relevant CSV files from the webs
 From the survey data, we find that Hong Kong citizens’ attitudes towards the Hong Kong government and assessment of Hong Kong society turned negative during the Anti-Extradition movement and turned positive after to a similar level as before the movement. In contrast, from the web data, we find that Hong Kong citizens’ attitudes towards the local government and society worsened considerably during the movement, and negative sentiments such as anger could still be identified in the discussion of Hong Kong government and society after the movement. This trend is reflected both in the graphs of word frequency counts and sentimental analysis. In general, we confirm our hypothesis that the public opinion gathered from survey data and online social media platforms could have a considerable gap.
 
 ### Other information
-GitHub repo navigation: https://github.com/macs30122-winter24/final-project-runaway/blob/main/MACS30122%20report%20runaway.pdf
+GitHub repo navigation: 
+Report: https://github.com/macs30122-winter24/final-project-runaway/blob/main/MACS30122%20report%20runaway.pdf
+Sentence splitting(Word segmentation) and tokenisation in Cantonese: https://github.com/macs30122-winter24/final-project-runaway/blob/main/Word%20segmentation.py
+Cantonese to English: https://github.com/macs30122-winter24/final-project-runaway/blob/main/microsoft%20translate%20api.py
 
 Data sources: <br/>
 LIHKG: https://lihkg.com/category/1; <br/>
