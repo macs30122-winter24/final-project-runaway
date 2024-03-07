@@ -33,7 +33,7 @@ Results:
 - Reference: https://github.com/macs30122-winter24/final-project-runaway/blob/main/Documents/Reference.md
 
 Data sources: <br/>
-- LIHKG: https://lihkg.com/category/1; <br/>
+- LIHKG: https://lihkg.com/category/1 <br/>
 - Hong Kong Public Opinion Research Institute: https://www.pori.hk<br/>
 
 Required libraries with version numbers: <br/>
