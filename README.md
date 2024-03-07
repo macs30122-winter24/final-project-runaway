@@ -10,13 +10,17 @@ From the survey data, we find that Hong Kong citizens’ attitudes towards the H
 ### Other information
 GitHub repo navigation: 
 
-Technical:
+Data and Methods:
 
 - Cleaned scraped dataset: [https://github.com/macs30122-winter24/final-project-runaway/tree/main/clean%20data](https://github.com/macs30122-winter24/final-project-runaway/tree/main/clean%20data)
 
 - Sentence splitting(Word segmentation) and tokenisation in Cantonese: https://github.com/macs30122-winter24/final-project-runaway/blob/main/Word%20segmentation.py
 
 - Cantonese to English: https://github.com/macs30122-winter24/final-project-runaway/blob/main/microsoft%20translate%20api.py
+
+- Survey data: https://github.com/macs30122-winter24/final-project-runaway/tree/main/Survey%20data%20and%20trend
+
+- Survey trend visualizations: https://github.com/macs30122-winter24/final-project-runaway/blob/main/Survey%20data%20and%20trend/survey_trend.ipynb
 
 - Sentimental analysis materials (Couldn't upload to GitHub repo because of the size): https://drive.google.com/file/d/1yHUAGjaKKW_NEkURuIBjm1rhnUtJKUmT/view?usp=drive_link
 
