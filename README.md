@@ -34,6 +34,10 @@ Required libraries with version numbers: <br/>
 - gensim
 - pyLDAvis
 - TCSP (read_stopwords_list)
+- pycantonese
+- defaultdict
+- requests
+- uuid
 
 Task distribution:
 - Data collection: Agens Xu, Huanrui Chen, Anny Liu
