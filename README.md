@@ -81,8 +81,9 @@ Task distribution:
 - Data analysis: everybody
 - Data visualization: Anny Liu, Tianle Ye
 - Presentation script: everybody
-- Short video: everybody
+- Short video: Agens Xu, Anny Liu，Tianle Ye
 - README: Tianle Ye
+- Report: Huanrui Chen
 
 Original presentation:
 https://github.com/macs30122-winter24/final-project-runaway/blob/main/Documents/Team%20Runaway%20Final%20Presentation_Original.pptx
