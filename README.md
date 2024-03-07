@@ -12,6 +12,12 @@ GitHub repo navigation:
 
 Data and Methods:
 
+- Scraper for relevant post ids: https://github.com/macs30122-winter24/final-project-runaway/blob/main/Scrapers/scrape_postid.py
+
+- Scraper for post: https://github.com/macs30122-winter24/final-project-runaway/blob/main/FirstPages/FirstPage_scraper.py
+
+- Raw scraped dataset: https://github.com/macs30122-winter24/final-project-runaway/blob/main/FirstPages
+
 - Sentence splitting(Word segmentation) and tokenisation in Cantonese: https://github.com/macs30122-winter24/final-project-runaway/blob/main/Word%20segmentation.py
 
 - Cleaned scraped dataset: [https://github.com/macs30122-winter24/final-project-runaway/tree/main/clean%20data](https://github.com/macs30122-winter24/final-project-runaway/tree/main/clean%20data)
@@ -67,6 +73,7 @@ Required libraries with version numbers: <br/>
 - requests
 - uuid
 - selenium
+- time
 
 Task distribution:
 - Data collection: Agens Xu, Huanrui Chen, Anny Liu
