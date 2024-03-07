@@ -7,11 +7,6 @@ from pycantonese.word_segmentation import Segmenter
 # Define stop words globally as it's a constant
 STOP_WORDS = pycantonese.stop_words()
 
-def extract_key_words(text):
-    """Extracts keywords from Cantonese text."""
-    key_words = set(pycantonese.segment(text))
-    return key_words
-
 def identify_common_pairs(texts, threshold=5):
     """Identifies common word pairs for improved segmentation."""
     pair_frequency = Counter()
@@ -21,14 +16,14 @@ def identify_common_pairs(texts, threshold=5):
             pair = words[i] + ' ' + words[i + 1]
             pair_frequency[pair] += 1
 
+    # Filter pairs that exceed the frequency threshold
     return {pair for pair, freq in pair_frequency.items() if freq > threshold}
 
 def segment_text(text, custom_segmenter):
     """Segments text with improved logic and removes stop words."""
     segmented = custom_segmenter.segment(text)
-    # Remove letters, symbols, and stop words
-    cleaned = [''.join(re.findall('[\u4e00-\u9fff]+', word)) for word in segmented if word not in STOP_WORDS]
-    return list(filter(None, cleaned))
+    # Remove stop words
+    return [word for word in segmented if word not in STOP_WORDS]
 
 def process_csv(file_path, output_file_path):
     """
@@ -40,10 +35,15 @@ def process_csv(file_path, output_file_path):
     """
     df = pd.read_csv(file_path)
     texts = df['text'].astype(str).tolist()
+    
+    # Identify common word pairs from the dataset for better segmentation
     common_pairs = identify_common_pairs(texts)
     custom_segmenter = Segmenter(allow=common_pairs)
-
+    
+    # Segment text using the custom segmenter
     df['cleaned_text'] = df['text'].apply(lambda x: segment_text(str(x), custom_segmenter))
+    
+    # Save the cleaned text to a JSON file
     df.to_json(output_file_path, force_ascii=False, orient="records", lines=True)
     print(f"Processed data has been saved to {output_file_path}")
 
