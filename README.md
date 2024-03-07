@@ -46,6 +46,7 @@ Required libraries with version numbers: <br/>
 - defaultdict
 - requests
 - uuid
+- selenium
 
 Task distribution:
 - Data collection: Agens Xu, Huanrui Chen, Anny Liu
