@@ -10,17 +10,31 @@ From the survey data, we find that Hong Kong citizens’ attitudes towards the H
 ### Other information
 GitHub repo navigation: 
 
-Report: [https://github.com/macs30122-winter24/final-project-runaway/blob/main/MACS30122%20report%20runaway.pdf](https://github.com/macs30122-winter24/final-project-runaway/blob/main/Documents/MACS30122%20report%20runaway.pdf)
+Technical:
 
-Sentence splitting(Word segmentation) and tokenisation in Cantonese: https://github.com/macs30122-winter24/final-project-runaway/blob/main/Word%20segmentation.py
+- Cleaned scraped dataset: [https://github.com/macs30122-winter24/final-project-runaway/tree/main/clean%20data](https://github.com/macs30122-winter24/final-project-runaway/tree/main/clean%20data)
 
-Cantonese to English: https://github.com/macs30122-winter24/final-project-runaway/blob/main/microsoft%20translate%20api.py
+- Sentence splitting(Word segmentation) and tokenisation in Cantonese: https://github.com/macs30122-winter24/final-project-runaway/blob/main/Word%20segmentation.py
 
-Cleaned scraped dataset: [https://github.com/macs30122-winter24/final-project-runaway/tree/main/clean%20data](https://github.com/macs30122-winter24/final-project-runaway/tree/main/clean%20data)
+- Cantonese to English: https://github.com/macs30122-winter24/final-project-runaway/blob/main/microsoft%20translate%20api.py
+
+- Sentimental analysis materials (Couldn't upload to GitHub repo because of the size): https://drive.google.com/file/d/1yHUAGjaKKW_NEkURuIBjm1rhnUtJKUmT/view?usp=drive_link
+
+Results:
+
+- Project Progress Report: former progress report, https://github.com/macs30122-winter24/final-project-runaway/blob/main/Documents/Project%20Progress%20Report.md
+
+- Original presentation: https://github.com/macs30122-winter24/final-project-runaway/blob/main/Documents/Team%20Runaway%20Final%20Presentation_Original.pptx
+
+- Revised presentation: https://github.com/macs30122-winter24/final-project-runaway/blob/main/Documents/Team%20Runaway%20Final%20Presentation_Revised.pptx
+
+- Report: https://github.com/macs30122-winter24/final-project-runaway/blob/main/Documents/MACS30122%20report%20runaway.pdf
+
+- Reference: https://github.com/macs30122-winter24/final-project-runaway/blob/main/Documents/Reference.md
 
 Data sources: <br/>
-LIHKG: https://lihkg.com/category/1; <br/>
-Hong Kong Public Opinion Research Institute: https://www.pori.hk<br/>
+- LIHKG: https://lihkg.com/category/1; <br/>
+- Hong Kong Public Opinion Research Institute: https://www.pori.hk<br/>
 
 Required libraries with version numbers: <br/>
 - os
@@ -57,13 +71,11 @@ Task distribution:
 - Short video: everybody
 - README: Tianle Ye
 
-Original presentation: <br/>
-https://github.com/macs30122-winter24/final-project-runaway/blob/main/Team%20Runaway%20Final%20Presentation_Original.pptx
+Original presentation:
+https://github.com/macs30122-winter24/final-project-runaway/blob/main/Documents/Team%20Runaway%20Final%20Presentation_Original.pptx
 
-Revised presentation: <br/>
-https://github.com/macs30122-winter24/final-project-runaway/blob/main/Team%20Runaway%20Final%20Presentation_Revised.pptx
+Revised presentation:
+https://github.com/macs30122-winter24/final-project-runaway/blob/main/Documents/Team%20Runaway%20Final%20Presentation_Revised.pptx
 
 Video link: ?
 
-Sentimental analysis materials (Couldn't upload to GitHub repo because of the size): <br/>
-https://drive.google.com/file/d/1yHUAGjaKKW_NEkURuIBjm1rhnUtJKUmT/view?usp=drive_link
