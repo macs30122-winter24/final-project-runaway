@@ -22,6 +22,8 @@ Data and Methods:
 
 - Survey trend visualizations: https://github.com/macs30122-winter24/final-project-runaway/blob/main/Survey%20data%20and%20trend/survey_trend.ipynb
 
+- Dynamic topic modeling (code + result): https://github.com/macs30122-winter24/final-project-runaway/tree/main/DTM 
+
 - Sentimental analysis materials (Couldn't upload to GitHub repo because of the size): https://drive.google.com/file/d/1yHUAGjaKKW_NEkURuIBjm1rhnUtJKUmT/view?usp=drive_link
 
 Results:
