@@ -10,7 +10,7 @@ From the survey data, we find that Hong Kong citizens’ attitudes towards the H
 ### Other information
 GitHub repo navigation: 
 
-Report: https://github.com/macs30122-winter24/final-project-runaway/blob/main/MACS30122%20report%20runaway.pdf
+Report: [https://github.com/macs30122-winter24/final-project-runaway/blob/main/MACS30122%20report%20runaway.pdf](https://github.com/macs30122-winter24/final-project-runaway/blob/main/Documents/MACS30122%20report%20runaway.pdf)
 
 Sentence splitting(Word segmentation) and tokenisation in Cantonese: https://github.com/macs30122-winter24/final-project-runaway/blob/main/Word%20segmentation.py
 
