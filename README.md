@@ -1,3 +1,4 @@
+## Team Runaway
 ### Project Description (597 words)
 Our research project concerns the change in public opinion in Hong Kong society after the Chinese Communist Party’s crackdown on the Anti-Extradition Bill Movement in Hong Kong. Our research question is: How does public opinion towards Hong Kong society and the government differ before and after the Anti-Extradition Bill Movement? How does such public opinion gathered in survey and on online social media forums differ? We hypothesize that 1) there is a gap between citizens’ publicly claimed political opinion gathered through survey and more privately communicated political preferences on social media platforms and 2) the discussions on social media shows more negative sentiments than in survey data. This research question is deeply relevant to social science. It explores how authoritarian crackdowns could impact public opinion in a democratic local society and the difference in different public opinion sources. 
 
@@ -85,11 +86,12 @@ Task distribution:
 - README: Tianle Ye
 - Report: Huanrui Chen
 
-Original presentation:
+Original presentation:<br/>
 https://github.com/macs30122-winter24/final-project-runaway/blob/main/Documents/Team%20Runaway%20Final%20Presentation_Original.pptx
 
-Revised presentation:
+Revised presentation:<br/>
 https://github.com/macs30122-winter24/final-project-runaway/blob/main/Documents/Team%20Runaway%20Final%20Presentation_Revised.pptx
 
-Video link: ?
+Video link: <br/>
+https://drive.google.com/file/d/1ZdHNPlHd-yiQprreA7WKB_FVVijgcgVy/view?usp=sharing
 
