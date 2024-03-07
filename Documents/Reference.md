@@ -18,7 +18,7 @@
 2. [Fine-tuned bert model based on TensorFlow package](https://www.tensorflow.org/text/tutorials/classify_text_with_bert)
 3. [The source of the training data, the microblogging database collected by HITU](https://smp2020ewect.github.io/)
 
-## Political
+## Literature
 1. [Wild hopes: Sourcing the political vocabulary of digital citizenship from the LIHKG forum](https://journals.sagepub.com/doi/full/10.1177/17480485221094123)
 2. [Opinion Mining and Sentiment Analysis in Policy
 Formulation Initiatives: The EU-Community Approach](https://inria.hal.science/hal-01587635/document)
